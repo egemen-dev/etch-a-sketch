@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+  #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    row-gap: 0px;
+    width: 500px;
+    height: 500px;
+    }
+  
+  .cell {
+    border: 1px solid rgb(175, 175, 175);
+  }

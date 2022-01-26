@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Draw</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="buttons">
+        <button class="clean">Clean</button>
+        <button class="border">Border</button>
+        <button class="colors">Colors</button>
+    </div>
+    
     <div id="container"></div>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="30" class="slider" id="myRange">
+        <p class="size-bar">Size: <span id="demo"></span></p>
+    </div>
+    
     <script src="engine.js" defer></script>
 </body>
 </html>
